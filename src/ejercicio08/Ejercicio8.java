@@ -12,9 +12,9 @@ public class Ejercicio8 {
 		nombre=pregunta.nextLine();
 		System.out.println("Cual es seu edade?");
 		edad=pregunta.nextInt();
-		//Cierra la pregunta epicamente y procede a poner la frase del ejercicio
-		pregunta.close();
+		//Procede a poner la frase del ejercicio, y despues cierra el Scanner
 		System.out.println("Hola " + nombre + ", tienes " + edad + " años, ¡qué mayor eres!");
+		pregunta.close();
 	}
 
 }

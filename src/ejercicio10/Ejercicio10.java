@@ -7,13 +7,13 @@ public class Ejercicio10 {
 		final double IVA = 0.21;
 		double precio;
 		//Enciende el Scanner y procede a preguntar por tu economia venezolana
-		Scanner pregunta=new Scanner(System.in);
+		Scanner sc=new Scanner(System.in);
 		System.out.println("Decime un precio sin IVA che");
-		precio=pregunta.nextDouble();
-		//Cierra el Scanner epicamente y procede a añadirle el IVA por la cara
-		pregunta.close();
+		precio=sc.nextDouble();
+		//Procede a añadirle el IVA por la cara y despues cierras el Scanner
 		precio=precio+(precio*IVA);
 		System.out.println("El precio con IVA es de " + precio + "€");
+		sc.close();
 	}
 
 }

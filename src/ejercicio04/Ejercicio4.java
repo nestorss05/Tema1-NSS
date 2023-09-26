@@ -14,11 +14,12 @@ public class Ejercicio4 {
 		nota1 = pregunta.nextInt();
 		System.out.println("Decime la segunda nota che");
 		nota2 = pregunta.nextInt();
-		// Cierras el Scanner epicamente y procedes a sumar las dos notas y a dividirlas entre dos
-		pregunta.close();
+		// Ahora procedes a sumar las dos notas y a dividirlas entre dos
 		nota12 = (float) (nota1+nota2)/2;
 		// Y ahora lo gritas a los cuatro vientos
 		System.out.println("La media aritmetica es: " + nota12);
+		// Cierra el scanner
+		pregunta.close();
 	}
 
 }

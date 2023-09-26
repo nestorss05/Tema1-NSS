@@ -14,11 +14,11 @@ public class Ejercicio7 {
 		direccion=pregunta.nextLine();
 		System.out.println("Decime tu numero para petarte de llamadas de Vomistar");
 		telefono=pregunta.nextInt();
-		//Cierra el Scanner epicamente y procede a revelar su informacion en 4chan
-		pregunta.close();
+		//Ahora procede a revelar su informacion en 4chan, y despues cierra el Scanner
 		System.out.println(nombre);
 		System.out.println(direccion);
 		System.out.println(telefono);
+		pregunta.close();
 	}
 
 }

@@ -9,8 +9,7 @@ public class Ejercicio5 {
 		Scanner pregunta = new Scanner(System.in);
 		System.out.println("Decime el radio che");
 		radio = pregunta.nextDouble();
-		//Cierra el scanner epicamente y procedes a hacer las operaciones
-		pregunta.close();
+		//Ahora procedes a hacer las operaciones
 		//Longitud de la circunferencia: 2*pi*r
 		longitud=2*Math.PI*radio;
 		//Area del circulo: pi*(r)2
@@ -18,6 +17,8 @@ public class Ejercicio5 {
 		//Y ahora grita los resultados a los cuatro vientos
 		System.out.println("La longitud de la circunferencia es de " + longitud);
 		System.out.println("El area del circulo es de " + area);
+		//Cierra el scanner
+		pregunta.close();
 	}
 
 }
