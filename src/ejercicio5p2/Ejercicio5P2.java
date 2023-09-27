@@ -8,7 +8,7 @@ public class Ejercicio5P2 {
 		//Registra las variables enteras nota1, nota2, nota3 y media1
 		int nota1, nota2, nota3, media1;
 		//Registra la variable con decimal media2
-		double media2;
+		float media2;
 		//Inicia el scanner
 		Scanner sc = new Scanner(System.in);
 		//Pregunta al usuario las notas de los tres trimestres
@@ -19,7 +19,7 @@ public class Ejercicio5P2 {
 		System.out.println("Inserta la nota del tercer trimestre");
 		nota3=sc.nextInt();
 		//Pasa a double la media de las tres notas, que se registrara en la variable media2
-		media2=(double)(nota1+nota2+nota3)/3;
+		media2=(float)(nota1+nota2+nota3)/3;
 		//Pasa el resultado de media2 a entero, para que se ajuste a la variable media1
 		media1=(int)media2;
 		//Muestra las notas medias en sus dos formas
