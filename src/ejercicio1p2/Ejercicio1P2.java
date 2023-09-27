@@ -5,10 +5,7 @@ public class Ejercicio1P2 {
 	public static void main(String[] args) {
 		//Registra las variables doubles total, manzanas y peras
 		double total, manzanas, peras;
-		final double EUROM, EUROP;
-		//Dale valor a las variables finales, EUROM y EUROP, con sus respectivos pesos
-		EUROM=2.35;
-		EUROP=1.95;
+		final double EUROM=2.35, EUROP=1.95;
 		//Inicia el Scanner
 		Scanner sc= new Scanner (System.in);
 		/*Pregunta al usuario los kilos de manzanas y peras
